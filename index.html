@@ -191,7 +191,7 @@
     </div>
     <div id="insert-syntax" class="step" data-x="-1200" data-y="800" data-rotate="0" data-scale="1">
         <q class="code">$member = array('name' => 'Laurence', 'age' => 22);</q><br />
-        <q class="code"><b>$settings = array('fsync' => 'true');</b></q>
+        <q class="code"><b>$settings = array('fsync' => 'true');</b></q><br />
         <q class="code">$collection->insert($member, $settings);</q><br />
     </div>
     <div id="insert-result" class="step" data-x="-1200" data-y="1000" data-rotate="0" data-scale="1">
@@ -205,7 +205,7 @@
         <q>With MongoDB, all you need is</q><br />
         <q class="code">$query = array('name' => 'Laurence');</q><br />
         <q class="code">$update = array('$set' => array('twitter' => '@laurenceputra'));</q><br />
-        <q class="code"><b>$settings = array('fsync' => 'true');</b></q>
+        <q class="code"><b>$settings = array('fsync' => 'true');</b></q><br />
         <q class="code">$collection->update($query, $update, $settings);</q>
     </div>
     <div id="update-result" class="step" data-x="-1200" data-y="2000" data-rotate="0" data-scale="1">
